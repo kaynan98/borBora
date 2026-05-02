@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T05:36:51.676Z",
+  "lastModified": "2026-05-02T05:37:04.303Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -24,7 +24,7 @@
     },
     "src/App.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:03:52.734Z",
+      "lastModified": "2026-05-02T05:37:04.303Z",
       "hash": "import{BrowserRouter,Routes,Route,Link}from"
     },
     "src/pages/Clientes.tsx": {
@@ -59,8 +59,8 @@
     },
     "src/pages/Index.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:30:43.397Z",
-      "hash": "import{useState}from'react'importTaskFormf"
+      "lastModified": "2026-05-02T05:37:03.342Z",
+      "hash": "importReceitasfrom'./Receitas'functionIndex("
     }
   },
   "deleted": {},
