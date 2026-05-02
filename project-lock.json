@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T05:23:29.410Z",
+  "lastModified": "2026-05-02T05:23:38.494Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -51,6 +51,16 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-02T05:03:53.607Z",
       "hash": "{\"rewrites\":[{\"source\":\"/(.*)\",\"destin"
+    },
+    "src/pages/lixo/Index.tsx.bak": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T05:23:37.684Z",
+      "hash": "import{useState}from'react'importTaskFormf"
+    },
+    "src/pages/Index.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T05:23:38.494Z",
+      "hash": "constIndex:React.FC=()=>{returnnull}e"
     }
   },
   "deleted": {},
