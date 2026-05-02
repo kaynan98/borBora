@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T05:03:40.600Z",
+  "lastModified": "2026-05-02T05:03:53.607Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -24,7 +24,7 @@
     },
     "src/App.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T04:57:31.787Z",
+      "lastModified": "2026-05-02T05:03:52.734Z",
       "hash": "import{BrowserRouter,Routes,Route,Link}from"
     },
     "src/pages/Clientes.tsx": {
@@ -34,8 +34,8 @@
     },
     "src/pages/Medicamentos.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T04:57:33.537Z",
-      "hash": "functionMedicamentos(){return(<div>"
+      "lastModified": "2026-05-02T05:03:51.908Z",
+      "hash": "import{useState,useEffect}from'react'inter"
     },
     "src/pages/Receitas.tsx": {
       "createdBy": "unknown",
@@ -46,6 +46,11 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-02T04:57:34.925Z",
       "hash": "functionHistoricoCliente(){return(<div>"
+    },
+    "vercel.json": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T05:03:53.607Z",
+      "hash": "{\"rewrites\":[{\"source\":\"/(.*)\",\"destin"
     }
   },
   "deleted": {},
