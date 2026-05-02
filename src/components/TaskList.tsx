@@ -19,18 +19,20 @@ function TaskList({ tasks, onToggle, onDelete }: TaskListProps) {
   }
 
   return (
-    <ul style={{ listStyle: 'none', padding: 0 }}>
+    <ul>
       {tasks.map((task) => (
-        <li key={task.id} style={{ marginBottom: '0.5rem' }}>
-          <label style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
-            <input
-              type="checkbox"
-              checked={task.completed}
-              onChange={() => onToggle(task.id)}
-            />
-            {task.title} - Prazo: {task.deadline}
-          </label>
-          <button onClick={() => onDelete(task.id)} style={{ marginLeft: '0.5rem' }}>Excluir</button>
+        <li key={task.id}>
+          <span
+            style={{
+              textDecoration: task.completed ? 'line-through' : 'none',
+            }}
+          >
+            {task.title} - {task.deadline}
+          </span>
+          <button onClick={() => onToggle(task.id)}>
+            {task.completed ? 'Reabrir' : 'Concluir'}
+          </button>
+          <button onClick={() => onDelete(task.id)}>Excluir</button>
         </li>
       ))}
     </ul>
