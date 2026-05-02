@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T14:27:36.452Z",
+  "lastModified": "2026-05-02T14:29:00.578Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -60,8 +60,9 @@
     },
     "src/pages/Index.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:37:03.342Z",
-      "hash": "importReceitasfrom'./Receitas'functionIndex("
+      "lastModified": "2026-05-02T14:29:00.578Z",
+      "hash": "importReceitasfrom'./Receitas'functionIndex(",
+      "attempts": 0
     }
   },
   "deleted": {},
