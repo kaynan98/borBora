@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T05:10:38.141Z",
+  "lastModified": "2026-05-02T05:11:06.019Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -44,8 +44,8 @@
     },
     "src/pages/HistoricoCliente.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T04:57:34.925Z",
-      "hash": "functionHistoricoCliente(){return(<div>"
+      "lastModified": "2026-05-02T05:11:06.019Z",
+      "hash": "import{useState,useEffect}from'react'inter"
     },
     "vercel.json": {
       "createdBy": "unknown",
