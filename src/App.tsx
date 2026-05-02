@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Index from './pages/Index'
 import Clientes from './pages/Clientes'
 import Medicamentos from './pages/Medicamentos'
 import Receitas from './pages/Receitas'
