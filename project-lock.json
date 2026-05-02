@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T14:24:05.974Z",
+  "lastModified": "2026-05-02T14:24:18.696Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -24,8 +24,9 @@
     },
     "src/App.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:37:04.303Z",
-      "hash": "import{BrowserRouter,Routes,Route,Link}from"
+      "lastModified": "2026-05-02T14:24:18.696Z",
+      "hash": "import{Routes,Route,Link}from'react-router-",
+      "attempts": 0
     },
     "src/pages/Clientes.tsx": {
       "createdBy": "unknown",
