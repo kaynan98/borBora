@@ -8,7 +8,12 @@ const Index: React.FC = () => {
     navigate('/clientes', { replace: true });
   }, [navigate]);
 
-  return null;
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1>Farmácia - Sistema de Gestão</h1>
+      <p>Bem-vindo ao sistema de gestão farmacêutica.</p>
+    </div>
+  );
 };
 
 export default Index;
