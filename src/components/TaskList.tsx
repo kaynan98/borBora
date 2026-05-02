@@ -22,16 +22,14 @@ function TaskList({ tasks, onToggle, onDelete }: TaskListProps) {
     <ul>
       {tasks.map((task) => (
         <li key={task.id}>
-          <span
-            style={{
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
+          <input
+            type="checkbox"
+            checked={task.completed}
+            onChange={() => onToggle(task.id)}
+          />
+          <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
             {task.title} - {task.deadline}
           </span>
-          <button onClick={() => onToggle(task.id)}>
-            {task.completed ? 'Reabrir' : 'Concluir'}
-          </button>
           <button onClick={() => onDelete(task.id)}>Excluir</button>
         </li>
       ))}
