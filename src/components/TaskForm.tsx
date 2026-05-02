@@ -11,7 +11,7 @@ function TaskForm({ onAdd }: TaskFormProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!title.trim()) return
-    onAdd(title.trim(), deadline)
+    onAdd(title, deadline)
     setTitle('')
     setDeadline('')
   }
