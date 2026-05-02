@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T04:57:07.155Z",
+  "lastModified": "2026-05-02T04:57:34.925Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -21,6 +21,31 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-02T04:44:48.997Z",
       "hash": "importReactfrom'react'importReactDOMfrom're"
+    },
+    "src/App.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T04:57:31.787Z",
+      "hash": "import{BrowserRouter,Routes,Route,Link}from"
+    },
+    "src/pages/Clientes.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T04:57:32.711Z",
+      "hash": "functionClientes(){return(<div><"
+    },
+    "src/pages/Medicamentos.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T04:57:33.537Z",
+      "hash": "functionMedicamentos(){return(<div>"
+    },
+    "src/pages/Receitas.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T04:57:34.217Z",
+      "hash": "functionReceitas(){return(<div><"
+    },
+    "src/pages/HistoricoCliente.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-02T04:57:34.925Z",
+      "hash": "functionHistoricoCliente(){return(<div>"
     }
   },
   "deleted": {},
