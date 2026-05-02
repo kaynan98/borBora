@@ -15,7 +15,7 @@ function App() {
         <Link to="/historico">Histórico do Cliente</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Clientes />} />
+        <Route path="/" element={<Index />} />
         <Route path="/clientes" element={<Clientes />} />
         <Route path="/medicamentos" element={<Medicamentos />} />
         <Route path="/receitas" element={<Receitas />} />
