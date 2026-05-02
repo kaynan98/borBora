@@ -5,7 +5,6 @@ import HistoricoCliente from './pages/HistoricoCliente'
 
 function App() {
   return (
-    <BrowserRouter>
       <nav style={{ padding: '1rem', background: '#f0f0f0', marginBottom: '1rem' }}>
         <Link to="/receitas" style={{ marginRight: '1rem' }}>Receitas</Link>
         <Link to="/historico">Histórico do Cliente</Link>
@@ -15,7 +14,6 @@ function App() {
         <Route path="/receitas" element={<Receitas />} />
         <Route path="/historico" element={<HistoricoCliente />} />
       </Routes>
-    </BrowserRouter>
   )
 }
 
