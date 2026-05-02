@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "stack": null,
+  "topology": null,
+  "appRoot": ".",
+  "backendRoot": null,
+  "initializedAt": null,
+  "lastModified": "2026-05-02T04:24:50.819Z",
+  "files": {},
+  "deleted": {},
+  "plan": [
+    {
+      "id": "step_1777695890819",
+      "status": "pending",
+      "operationsCount": 1,
+      "createdAt": "2026-05-02T04:24:50.819Z"
+    },
+    {
+      "id": "step_1777695890819",
+      "status": "pending",
+      "operationsCount": 1,
+      "createdAt": "2026-05-02T04:24:50.819Z"
+    },
+    {
+      "id": "step_1777695890819",
+      "status": "pending",
+      "operationsCount": 1,
+      "createdAt": "2026-05-02T04:24:50.819Z"
+    }
+  ],
+  "build": {
+    "lastAttempt": null,
+    "success": null,
+    "error": null
+  },
+  "supabase": null,
+  "historySummary": ""
+}
