@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-02T05:09:06.847Z",
+  "lastModified": "2026-05-02T05:09:08.847Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -34,7 +34,7 @@
     },
     "src/pages/Medicamentos.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:09:06.847Z",
+      "lastModified": "2026-05-02T05:09:08.847Z",
       "hash": "import{useState,useEffect}from'react'inter"
     },
     "src/pages/Receitas.tsx": {
