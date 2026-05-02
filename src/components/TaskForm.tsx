@@ -10,26 +10,24 @@ function TaskForm({ onAdd }: TaskFormProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (!title.trim() || !deadline) return
+    if (!title.trim()) return
     onAdd(title.trim(), deadline)
     setTitle('')
     setDeadline('')
   }
 
   return (
-    <form onSubmit={handleSubmit} style={{ marginBottom: '1rem' }}>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Título da tarefa"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        required
       />
       <input
         type="date"
         value={deadline}
         onChange={(e) => setDeadline(e.target.value)}
-        required
       />
       <button type="submit">Adicionar</button>
     </form>
