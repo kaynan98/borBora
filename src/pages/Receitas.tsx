@@ -14,11 +14,19 @@ interface Cliente {
   nome: string
 }
 
+interface Lote {
+  id: number
+  numero: string
+  quantidade: number
+  dataValidade: string
+}
+
 interface Medicamento {
   id: number
   nome: string
-  lote: string
-  validade: string
+  laboratorio: string
+  principioAtivo: string
+  lote: Lote
 }
 
 function Receitas() {
