@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T22:36:37.291Z",
+  "lastModified": "2026-05-03T22:43:08.666Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -26,8 +26,8 @@
     },
     "src/App.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-03T22:32:01.404Z",
-      "hash": "import{Routes,Route,Link,useLocation}from'",
+      "lastModified": "2026-05-03T22:43:08.666Z",
+      "hash": "import{Routes,Route}from'react-router-dom'i",
       "attempts": 0
     },
     "src/pages/Clientes.tsx": {
@@ -84,6 +84,30 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-03T21:37:00.853Z",
       "hash": "@tailwindbase;@tailwindcomponents;@tailwindut",
+      "attempts": 0
+    },
+    "src/components/Header.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T22:43:05.122Z",
+      "hash": "import{Link}from'react-router-dom'function",
+      "attempts": 0
+    },
+    "src/components/Sidebar.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T22:43:06.043Z",
+      "hash": "import{Link,useLocation}from'react-router-do",
+      "attempts": 0
+    },
+    "src/components/Footer.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T22:43:06.878Z",
+      "hash": "functionFooter(){return(<footerclassNa",
+      "attempts": 0
+    },
+    "src/components/Layout.tsx": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T22:43:07.645Z",
+      "hash": "import{ReactNode}from'react'importHeaderfr",
       "attempts": 0
     }
   },
