@@ -55,6 +55,11 @@ function Receitas() {
     ? medicamentos.filter((m) => m.nome === medicamento)
     : []
 
+  const handleMedicamentoChange = (nome: string) => {
+    setMedicamento(nome)
+    setLote('')
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!cliente || !medicamento || !lote || !dataValidade) return
