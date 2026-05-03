@@ -111,10 +111,7 @@ function Receitas() {
           <label>Medicamento: </label>
           <select
             value={medicamento}
-            onChange={(e) => {
-              setMedicamento(e.target.value)
-              setLote('')
-            }}
+            onChange={(e) => handleMedicamentoChange(e.target.value)}
             required
           >
             <option value="">Selecione um medicamento</option>
