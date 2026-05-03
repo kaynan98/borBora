@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T22:43:08.666Z",
+  "lastModified": "2026-05-03T22:47:19.934Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -1231,6 +1231,34 @@
       "status": "pending",
       "operationsCount": 4,
       "createdAt": "2026-05-03T22:36:37.291Z"
+    },
+    {
+      "id": "ms1",
+      "description": "Refatorar página Clientes com Layout e Tailwind",
+      "status": "pending",
+      "operationsCount": 2,
+      "createdAt": "2026-05-03T22:47:19.934Z"
+    },
+    {
+      "id": "ms2",
+      "description": "Refatorar página Medicamentos com Layout e Tailwind",
+      "status": "pending",
+      "operationsCount": 2,
+      "createdAt": "2026-05-03T22:47:19.934Z"
+    },
+    {
+      "id": "ms3",
+      "description": "Refatorar página Receitas com Layout e Tailwind",
+      "status": "pending",
+      "operationsCount": 2,
+      "createdAt": "2026-05-03T22:47:19.934Z"
+    },
+    {
+      "id": "ms4",
+      "description": "Refatorar página Histórico com Layout e Tailwind",
+      "status": "pending",
+      "operationsCount": 2,
+      "createdAt": "2026-05-03T22:47:19.934Z"
     }
   ],
   "build": {
