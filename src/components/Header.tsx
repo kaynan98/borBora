@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 function Header() {
   return (
     <header className="bg-gray-900 border-b border-gray-800 sticky top-0 z-10">
