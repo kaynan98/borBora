@@ -17,12 +17,12 @@ interface Cliente {
 }
 
 function HistoricoCliente() {
-  const [receitas, setReceitas] = useState<Receita[]>(() => {
+  const [receitas] = useState<Receita[]>(() => {
     const stored = localStorage.getItem('receitas')
     return stored ? JSON.parse(stored) : []
   })
 
-  const [clientes, setClientes] = useState<Cliente[]>(() => {
+  const [clientes] = useState<Cliente[]>(() => {
     const stored = localStorage.getItem('clientes')
     return stored ? JSON.parse(stored) : []
   })
