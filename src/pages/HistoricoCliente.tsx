@@ -1,20 +1,3 @@
-import { useState } from 'react'
-
-interface Receita {
-  id: string
-  cliente: string
-  medicamento: string
-  data: string
-  observacao: string
-}
-
-interface Cliente {
-  id: string
-  nome: string
-  telefone: string
-  email: string
-}
-
 function HistoricoCliente() {
   return (
     <div className="max-w-4xl mx-auto p-8">
