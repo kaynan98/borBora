@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T21:27:04.206Z",
+  "lastModified": "2026-05-03T21:29:36.620Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -63,6 +63,18 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-03T21:21:11.007Z",
       "hash": "import{Link}from'react-router-dom'function",
+      "attempts": 0
+    },
+    ".env.example": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T21:29:35.713Z",
+      "hash": "#VariáveisdeambienteparaoSistemadeGestãod",
+      "attempts": 0
+    },
+    ".gitignore": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T21:29:36.620Z",
+      "hash": "node_modulesdist.env.env.local*.log.DS_Store",
       "attempts": 0
     }
   },
