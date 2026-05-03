@@ -5,49 +5,43 @@ import Clientes from './pages/Clientes'
 import Medicamentos from './pages/Medicamentos'
 import HistoricoCliente from './pages/HistoricoCliente'
 
-const navItems = [
-  { path: '/', label: 'Início' },
-  { path: '/receitas', label: 'Receitas' },
-  { path: '/clientes', label: 'Clientes' },
-  { path: '/medicamentos', label: 'Medicamentos' },
-  { path: '/historico', label: 'Histórico' },
-]
+function NavLink({ to, children }: { to: string; children: React.ReactNode }) {
+  const location = useLocation()
+  const active = location.pathname === to
+  return (
+    <Link
+      to={to}
+      className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
+        active
+          ? 'bg-indigo-600 text-white shadow-md'
+          : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+      }`}
+    >
+      {children}
+    </Link>
+  )
+}
 
 function App() {
-  const location = useLocation()
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
-      <nav className="bg-gradient-to-r from-blue-600 to-blue-800 shadow-lg">
+    <div className="min-h-screen bg-gray-50">
+      <nav className="bg-gray-900 border-b border-gray-800 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex-shrink-0">
-              <span className="text-white font-bold text-xl tracking-tight">
-                🏥 Farmácia Gestão
-              </span>
+            <div className="flex items-center gap-2">
+              <span className="text-xl">💊</span>
+              <h1 className="text-xl font-bold text-white">Controle de Receitas</h1>
             </div>
-            <div className="flex space-x-1 sm:space-x-2">
-              {navItems.map((item) => {
-                const isActive = location.pathname === item.path
-                return (
-                  <Link
-                    key={item.path}
-                    to={item.path}
-                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                      isActive
-                        ? 'bg-white/20 text-white shadow-inner'
-                        : 'text-blue-100 hover:bg-white/10 hover:text-white'
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                )
-              })}
+            <div className="flex gap-2">
+              <NavLink to="/">🏠 Início</NavLink>
+              <NavLink to="/clientes">👥 Clientes</NavLink>
+              <NavLink to="/medicamentos">💊 Medicamentos</NavLink>
+              <NavLink to="/receitas">📋 Receitas</NavLink>
+              <NavLink to="/historico">📊 Histórico</NavLink>
             </div>
           </div>
         </div>
       </nav>
-
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Routes>
           <Route path="/" element={<Index />} />
