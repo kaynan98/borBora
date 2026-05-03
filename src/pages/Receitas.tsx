@@ -128,8 +128,8 @@ function Receitas() {
           <select value={lote} onChange={(e) => setLote(e.target.value)} required disabled={!medicamento}>
             <option value="">Selecione um lote</option>
             {lotesDisponiveis.map((m) => (
-              <option key={m.id} value={m.lote}>
-                {m.lote} (validade: {m.validade})
+              <option key={m.id} value={m.lote.numero}>
+                {m.lote.numero} (validade: {new Date(m.lote.dataValidade).toLocaleDateString('pt-BR')})
               </option>
             ))}
           </select>
