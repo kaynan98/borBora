@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T22:34:32.127Z",
+  "lastModified": "2026-05-03T22:36:37.291Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -1186,6 +1186,27 @@
       "status": "pending",
       "operationsCount": 1,
       "createdAt": "2026-05-02T14:29:15.236Z"
+    },
+    {
+      "id": "ms1",
+      "description": "Criar componentes de layout base (Header, Sidebar, Footer) e integrar no App.tsx",
+      "status": "pending",
+      "operationsCount": 4,
+      "createdAt": "2026-05-03T22:36:37.291Z"
+    },
+    {
+      "id": "ms2",
+      "description": "Melhorar página Index com cards de atalho e design moderno",
+      "status": "pending",
+      "operationsCount": 2,
+      "createdAt": "2026-05-03T22:36:37.291Z"
+    },
+    {
+      "id": "ms3",
+      "description": "Aplicar novo layout nas páginas de Clientes, Medicamentos, Receitas e Histórico",
+      "status": "pending",
+      "operationsCount": 4,
+      "createdAt": "2026-05-03T22:36:37.291Z"
     }
   ],
   "build": {
