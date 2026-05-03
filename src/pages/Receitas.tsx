@@ -55,6 +55,8 @@ function Receitas() {
     ? medicamentos.filter((m) => m.nome === medicamento)
     : []
 
+  const _unused = null
+
   const handleMedicamentoChange = (nome: string) => {
     setMedicamento(nome)
     setLote('')
