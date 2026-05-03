@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T21:23:56.582Z",
+  "lastModified": "2026-05-03T21:25:08.386Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -45,8 +45,8 @@
     },
     "src/pages/HistoricoCliente.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-03T21:23:56.582Z",
-      "hash": "const[receitas]=useState<Receita[]>(()=>{",
+      "lastModified": "2026-05-03T21:25:08.386Z",
+      "hash": "importReact,{useState}from'react'interface",
       "attempts": 0
     },
     "vercel.json": {
