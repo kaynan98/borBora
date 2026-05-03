@@ -5,17 +5,19 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T21:31:10.889Z",
+  "lastModified": "2026-05-03T21:37:04.530Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T04:25:47.537Z",
-      "hash": "importReact,{useState}from'react'interface"
+      "lastModified": "2026-05-03T21:37:03.557Z",
+      "hash": "import{useState}from'react'interfaceTaskFo",
+      "attempts": 0
     },
     "src/components/TaskList.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T04:25:48.433Z",
-      "hash": "importReactfrom'react'interfaceTask{id:"
+      "lastModified": "2026-05-03T21:37:04.530Z",
+      "hash": "interfaceTask{id:numbertitle:stringde",
+      "attempts": 0
     },
     "src/main.tsx": {
       "createdBy": "unknown",
@@ -24,8 +26,8 @@
     },
     "src/App.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-03T21:21:11.954Z",
-      "hash": "import{Routes,Route,Link}from'react-router-",
+      "lastModified": "2026-05-03T21:37:01.717Z",
+      "hash": "import{Routes,Route,Link,useLocation}from'",
       "attempts": 0
     },
     "src/pages/Clientes.tsx": {
@@ -61,8 +63,8 @@
     },
     "src/pages/Index.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-03T21:21:11.007Z",
-      "hash": "import{Link}from'react-router-dom'function",
+      "lastModified": "2026-05-03T21:37:02.643Z",
+      "hash": "import{Link}from'react-router-dom'constcar",
       "attempts": 0
     },
     ".env.example": {
@@ -75,6 +77,12 @@
       "createdBy": "unknown",
       "lastModified": "2026-05-03T21:29:36.620Z",
       "hash": "node_modulesdist.env.env.local*.log.DS_Store",
+      "attempts": 0
+    },
+    "src/index.css": {
+      "createdBy": "unknown",
+      "lastModified": "2026-05-03T21:37:00.853Z",
+      "hash": "@tailwindbase;@tailwindcomponents;@tailwindut",
       "attempts": 0
     }
   },
