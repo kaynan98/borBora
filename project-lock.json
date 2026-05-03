@@ -5,7 +5,7 @@
   "appRoot": ".",
   "backendRoot": null,
   "initializedAt": null,
-  "lastModified": "2026-05-03T22:32:01.404Z",
+  "lastModified": "2026-05-03T22:34:32.127Z",
   "files": {
     "src/components/TaskForm.tsx": {
       "createdBy": "unknown",
@@ -42,8 +42,9 @@
     },
     "src/pages/Receitas.tsx": {
       "createdBy": "unknown",
-      "lastModified": "2026-05-02T05:09:58.294Z",
-      "hash": "import{useState}from'react'interfaceReceit"
+      "lastModified": "2026-05-03T22:34:32.127Z",
+      "hash": "import{useState}from'react'interfaceReceit",
+      "attempts": 0
     },
     "src/pages/HistoricoCliente.tsx": {
       "createdBy": "unknown",
