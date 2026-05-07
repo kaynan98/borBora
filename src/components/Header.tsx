@@ -6,16 +6,16 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-cyan-500/20 rounded-xl flex items-center justify-center backdrop-blur-sm group-hover:bg-cyan-500/30 transition-all duration-300 neon-glow">
+            <div className="w-10 h-10 bg-gradient-to-br from-cyan-500/30 to-purple-600/30 rounded-xl flex items-center justify-center backdrop-blur-sm group-hover:from-cyan-500/40 group-hover:to-purple-600/40 transition-all duration-300 neon-glow-strong">
               <span className="text-xl">💊</span>
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-bold gradient-text tracking-tight">Farmácia</h1>
+              <h1 className="text-xl font-bold gradient-strong tracking-tight">Farmácia</h1>
               <span className="text-xs text-gray-400 -mt-1">Sistema de Gestão</span>
             </div>
           </Link>
           <div className="flex items-center gap-4">
-            <span className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 bg-gray-800 rounded-full text-gray-300 text-sm">
+            <span className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 bg-gray-800/60 backdrop-blur-md rounded-full text-gray-300 text-sm border border-white/10">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
               Online
             </span>
