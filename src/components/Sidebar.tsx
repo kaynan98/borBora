@@ -23,8 +23,8 @@ function Sidebar() {
                 to={item.to}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
                   active
-                    ? 'bg-cyan-500 text-white shadow-md shadow-cyan-500/20 scale-[1.02]'
-                    : 'text-gray-400 hover:bg-gray-800 hover:text-cyan-400 hover:shadow-sm'
+                    ? 'bg-cyan-500 text-white shadow-md shadow-cyan-500/20 scale-[1.02] neon-glow'
+                    : 'text-gray-400 hover:bg-gray-800 hover:text-cyan-400 hover:shadow-sm neon-border'
                 }`}
               >
                 <div className={`w-9 h-9 rounded-lg flex items-center justify-center text-lg ${
