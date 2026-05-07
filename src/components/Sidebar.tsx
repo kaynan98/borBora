@@ -23,12 +23,12 @@ function Sidebar() {
                 to={item.to}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
                   active
-                    ? 'bg-cyan-500 text-white shadow-md shadow-cyan-500/20 scale-[1.02] neon-glow'
-                    : 'text-gray-400 hover:bg-gray-800 hover:text-cyan-400 hover:shadow-sm neon-border'
+                    ? 'bg-gradient-to-r from-cyan-500 to-purple-600 text-white shadow-lg shadow-cyan-500/30 scale-[1.02] neon-glow-strong'
+                    : 'text-gray-400 hover:bg-gray-800/60 hover:text-cyan-400 hover:shadow-sm neon-border-strong'
                 }`}
               >
                 <div className={`w-9 h-9 rounded-lg flex items-center justify-center text-lg ${
-                  active ? 'bg-white/20' : 'bg-gray-800'
+                  active ? 'bg-white/20' : 'bg-gray-800/60'
                 }`}>
                   {item.icon}
                 </div>
