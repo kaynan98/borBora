@@ -5,12 +5,12 @@ function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <span className="text-white text-lg">💊</span>
-            <span className="text-white font-semibold">Farmácia - Sistema de Gestão</span>
+            <span className="text-white font-semibold gradient-strong">Farmácia - Sistema de Gestão</span>
           </div>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-white/70 hover:text-white transition-colors text-sm">Termos</a>
-            <a href="#" className="text-white/70 hover:text-white transition-colors text-sm">Privacidade</a>
-            <a href="#" className="text-white/70 hover:text-white transition-colors text-sm">Suporte</a>
+            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors text-sm">Termos</a>
+            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors text-sm">Privacidade</a>
+            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors text-sm">Suporte</a>
           </div>
           <p className="text-white/60 text-sm">&copy; {new Date().getFullYear()} Todos os direitos reservados.</p>
         </div>
