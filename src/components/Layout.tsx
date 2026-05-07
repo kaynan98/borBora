@@ -9,7 +9,7 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 via-indigo-50/30 to-purple-50/30">
+    <div className="min-h-screen flex flex-col bg-gray-950">
       <Header />
       <div className="flex flex-1">
         <Sidebar />
