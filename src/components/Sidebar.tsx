@@ -13,7 +13,7 @@ function Sidebar() {
 
   return (
     <aside className="w-64 min-h-screen p-4 hidden md:block">
-      <div className="bg-gray-900/80 backdrop-blur-md rounded-2xl shadow-lg border border-gray-800 p-4 h-full">
+      <div className="glass-sidebar h-full">
         <nav className="space-y-2">
           {navItems.map((item) => {
             const active = location.pathname === item.to
